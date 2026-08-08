@@ -1,91 +1,39 @@
-# Demon's Nation of Realism
+A **Free and Open Source** resource pack made for ***Minecraft Java*** and ***Bedrock*** Edition to completely replace the game's builtin default textures into high resolution photorealistic textures.
 
-**Demon's Nation of Realism** is a high-resolution, photorealistic resource pack for **Minecraft Java Edition**, designed to deliver hyper-realistic visuals with 256x / 512x / 1024x textures. Built for players who want to experience Minecraft with a cinematic level of realism, this pack supports advanced graphics technologies like **POM (Parallax Occlusion Mapping)** and **PBR (Physically Based Rendering)**.
+## Features
+ - ***POM***: The pack supports the [Parallax Occlusion Mapping](https://en.wikipedia.org/wiki/Parallax_occlusion_mapping) to give the textures their real time 3d depth (Using a compatible shader pack for minecraft java)
+- ***PBR***: The pack also supports the [Physically Based Rendering](https://en.wikipedia.org/wiki/Physically_based_rendering) for faking the 3d depth while still giving photorealism (Using a compatible shader pack for minecraft java)
+- ***RAW***: The pack can also be used without any advanced shading effects to improve the performance of the game while still looking life like (With no real 3d depth)
+- ***Variable Resolution***: The pack officially comes in 3 main resolutions 1024x1024 (Highest quality, Large File Size), 512x512 (Medium quality, Medium File Size) , 256x256 (Lowest quality, Small file size). All of these resolutions are free. It depends on the hardware which is about to run these variants.
 
-![Preview](img/1.png) <!-- Replace with actual preview image path if available -->
+## License
+The entire project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), Allowing everyone to see the source, Modify it, Distribute it and do what ever without requiring to pay for the resource pack. 
 
-## 🌟 Features
+## Official Website For Latest Previews / Downloads
+- [Main Website](https://ghgltggamer.netlify.app/)
+- [Github Profile](https://github.com/darkyboys)
 
-- **1024x Resolution** for ultra-detailed textures
-- **Photorealistic style** with lifelike surfaces and materials
-- **POM/PBR support** for enhanced realism (requires shaders)
-- **Modular Extensions** for POM and PBR (activate one at a time)
-- **MIT Licensed** – Free and open-source
-- **PE Beta Version Available** (without POM/PBR)
+## Source code / Repository
+- ***1024x1024***: [Github](github.com/darkyboys/xsrealism)
+- ***256x256***: [Github](github.com/darkyboys/xsrealism-256x)
+- ***512x512***: [Github](github.com/darkyboys/xsrealism-512x)
+- ***PBR Extension Pack***: [Github](github.com/darkyboys/xsrealism-pbr)
+- ***POM Extension Pack***: [Github](github.com/darkyboys/xsrealism-pom)
+> **Note**: 1024x1024, 512x512 and 256x256 are all RAW Texture Packs means they do not contains the POM/PBR Information with them. Please use the POM/PBR Extension packs alongside the RAW Variable packs in order to unlock the advanced shading capabilities of the resource pack using a compatible shader pack.
 
----
+## Donation
+Donations are accepted via [PayPal](https://paypal.me/fozdtx)
 
-## 🔧 Installation
+## Contributions
+All kind of contributions are accepted in the official repositories. Please visit the official repositories for more information.
 
-### For Java Edition
-
-1. Download the latest version of the resource pack from:
-   - [CurseForge](https://www.curseforge.com/minecraft/texture-packs/demons-nation-of-realism-1024x-pom-pbr-for-free)
-   - [Planet Minecraft](https://www.planetminecraft.com/texture-pack/demon-s-nation-of-realism-1024x-photorealistic-minecraft-javaedition-rp-pbr-pom-supported/)
-
-2. Move the `.zip` file into your Minecraft `resourcepacks` folder:
-
-\~/.minecraft/resourcepacks/
-
-
-3. Launch Minecraft and go to **Options > Resource Packs**, then activate **Demon's Nation of Realism**.
-
-4. (Optional) For POM/PBR support:
-- Use a shader like **SEUS PTGI**, **BSL**, or **Continuum**. (Recommended: **Nostalgia Shader With POM**)
-- Make sure to activate the relevant **POM** or **PBR** extension pack (use only one at a time).
-
-*Note :- The Resource Pack's Pre Maded Zip System is eliminated, Not DNR (Demon's Nation Of Realism) Uses a live pack building system for each user to give latest version directly from repo via [directory-downloader](https://download-directory.github.io/)*
+## Bug Report
+Please submit any bug reports to the official repositorie's ***issue*** tab.
 
 ---
 
-### For Pocket Edition (PE)
+Thanks a lot for giving your time. Please note that the pack does not follows a standard pre-built zip release system. The pack is rolling release means as soon as an update comes in the main repositories you can build that particular version directly without waiting for anyone to build a usable zip file. Allowing efficient downloads.
 
-A beta version is available (POM/PBR not supported):
-- [Download PE version](https://mcpedl.com/demon-s-nation-of-realism-pe-beta/)
+Also a quick note. If you find any bugs. Before reporting them to the main repositories update to the latest build first. In most of the cases known bugs are fixed in the latest commits. If the issue still occurs then please report the bugs in the Main repositorie's ***issue*** tab.
 
----
-
-## 📂 Folder Structure
-
-Demon's Nation of Realism/
-├── \REPO FILES
-├── \Base_Pack
-├── \[Optional] POM\_Extension
-└── \[Optional] PBR\_Extension
-
-Only load one of the optional extensions at a time to prevent graphical glitches.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it with attribution.
-
----
-
-## 💬 Credits
-
-Created by **Darkyboys** and contributors.  
-Special thanks to the Minecraft community for shader and PBR/POM support.
-
----
-
-## 📸 Screenshots
-
-<img src="img/1.png">
-<img src="img/2.png">
-<img src="img/3.png">
-<img src="img/4.png">
-
----
-
-## 🧠 Tips
-
-- For best results, allocate more RAM to Minecraft (8GB recommended).
-- Always use **OptiFine** or **Iris + Sodium** for advanced shader support.
-
----
-
-## 💌 Support or Feedback?
-
-Open an issue on [GitHub](https://github.com/darkyboys/demon-nation-of-realism) or reach out via the comments on CurseForge or Planet Minecraft.
+Thank you. have a nice day,
